@@ -207,7 +207,7 @@
         <!--시간표-->
         <scene sceneID="A0e-xG-ASS">
             <objects>
-                <viewController id="Kxi-iU-OM8" sceneMemberID="viewController">
+                <viewController id="Kxi-iU-OM8" customClass="TimetableViewController" customModule="HansungInfo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mh3-la-9nL">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -223,14 +223,49 @@
         <!--성적-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HansungInfo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="GradeDetailViewController" customModule="HansungInfo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="BIc-ea-1Mx">
+                                <rect key="frame" x="0.0" y="164" width="393" height="571"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="GradeCell" id="lXH-7w-Z9F" customClass="GradeCell" customModule="HansungInfo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="44.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lXH-7w-Z9F" id="UCO-Rk-IZm">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="44.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7nM-ag-hhF">
+                                <rect key="frame" x="16" y="134" width="361" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7nM-ag-hhF" secondAttribute="trailing" constant="16" id="9oQ-Aq-y2Z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BIc-ea-1Mx" secondAttribute="trailing" id="Jm1-DO-Hog"/>
+                            <constraint firstItem="BIc-ea-1Mx" firstAttribute="top" secondItem="7nM-ag-hhF" secondAttribute="top" constant="30" id="Llb-H1-roU"/>
+                            <constraint firstItem="BIc-ea-1Mx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Y3I-Op-fln"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BIc-ea-1Mx" secondAttribute="bottom" id="mkr-vf-whK"/>
+                            <constraint firstItem="7nM-ag-hhF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="p8X-fv-MLG"/>
+                            <constraint firstItem="7nM-ag-hhF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="16" id="rjJ-DN-PHZ"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="성적" id="rWa-gX-U7S"/>
+                    <connections>
+                        <outlet property="summaryLabel" destination="7nM-ag-hhF" id="V7I-4W-5Bs"/>
+                        <outlet property="tableView" destination="BIc-ea-1Mx" id="xaD-Pw-Agt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
