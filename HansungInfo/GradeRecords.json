@@ -1,0 +1,77 @@
+[
+  {
+    "year": 2022,
+    "semester": 2,
+    "courses": [
+      { "name": "이미지관리와 커뮤니케이션", "code": "U122025", "credit": 3, "grade": "A+" },
+      { "name": "데이터베이스설계", "code": "VO22004", "credit": 3, "grade": "A0" },
+      { "name": "가상현실", "code": "VO23005", "credit": 3, "grade": "B+" },
+      { "name": "시스템프로그래밍", "code": "VO20013", "credit": 3, "grade": "B+" },
+      { "name": "네트워크프로그래밍", "code": "VO20017", "credit": 3, "grade": "B0" },
+      { "name": "설계패턴", "code": "VO20018", "credit": 3, "grade": "A0" }
+    ]
+  },
+  {
+    "year": 2022,
+    "semester": 1,
+    "courses": [
+      { "name": "기업가정신과 창업", "code": "U122026", "credit": 3, "grade": "A0" },
+      { "name": "데이터베이스", "code": "VO20012", "credit": 3, "grade": "B+" },
+      { "name": "소프트웨어공학", "code": "VO20013", "credit": 3, "grade": "A0" },
+      { "name": "운영체제", "code": "VO20014", "credit": 3, "grade": "B+" },
+      { "name": "안드로이드프로그래밍", "code": "VO21004", "credit": 3, "grade": "A0" },
+      { "name": "영상처리", "code": "VO23004", "credit": 3, "grade": "B0" }
+    ]
+  },
+  {
+    "year": 2021,
+    "semester": 2,
+    "courses": [
+      { "name": "웰니스와 삶의 질", "code": "U121017", "credit": 3, "grade": "B0" },
+      { "name": "객체지향언어2", "code": "V020007", "credit": 3, "grade": "A0" },
+      { "name": "데이터통신", "code": "V020008", "credit": 3, "grade": "B0" },
+      { "name": "알고리즘", "code": "V020010", "credit": 3, "grade": "A0" },
+      { "name": "오픈소스소프트웨어", "code": "V020011", "credit": 3, "grade": "B+" },
+      { "name": "웹프로그래밍", "code": "V024003", "credit": 3, "grade": "B+" }
+    ]
+  },
+  {
+    "year": 2019,
+    "semester": 1,
+    "courses": [
+      { "name": "객체지향언어1", "code": "V020001", "credit": 3, "grade": "A0" },
+      { "name": "자료구조", "code": "V020002", "credit": 3, "grade": "B0" },
+      { "name": "컴퓨터구조", "code": "V020003", "credit": 3, "grade": "C+" },
+      { "name": "프로그래밍랩", "code": "V020004", "credit": 3, "grade": "B0" },
+      { "name": "프로그래밍언어론", "code": "V020005", "credit": 3, "grade": "B0" },
+      { "name": "수학의 이해", "code": "GCN0008", "credit": 3, "grade": "C+" }
+    ]
+  },
+  {
+    "year": 2018,
+    "semester": 2,
+    "courses": [
+      { "name": "상상력이노베이터(미래를 바꾸는 과학기술)", "code": "CCB0004", "credit": 2, "grade": "B+" },
+      { "name": "사고와 표현 II", "code": "REQ0014", "credit": 2, "grade": "A+" },
+      { "name": "소프트웨어의 이해", "code": "REQ0017", "credit": 3, "grade": "B+" },
+      { "name": "영어커뮤니케이션 청취/회화 Ⅰ", "code": "REQ0421", "credit": 2, "grade": "B0" },
+      { "name": "사물인터넷 개론", "code": "CTE0008", "credit": 3, "grade": "B+" },
+      { "name": "인터넷윤리와 보안개론", "code": "CTE0009", "credit": 3, "grade": "B0" },
+      { "name": "컴퓨터와 인터넷개론", "code": "GEN0200", "credit": 3, "grade": "B0" }
+    ]
+  },
+  {
+    "year": 2018,
+    "semester": 1,
+    "courses": [
+      { "name": "사고와 표현 I", "code": "REQ0013", "credit": 2, "grade": "A0" },
+      { "name": "디자인", "code": "REQ0016", "credit": 2, "grade": "B0" },
+      { "name": "영어커뮤니케이션 독해/작문 Ⅰ", "code": "REQ0311", "credit": 2, "grade": "B+" },
+      { "name": "삶과 꿈", "code": "CCA0006", "credit": 2, "grade": "B0" },
+      { "name": "대학수학I-1", "code": "GEN0507", "credit": 3, "grade": "B0" },
+      { "name": "소셜미디어와 스마트한 세상", "code": "U122043", "credit": 3, "grade": "B+" },
+      { "name": "컴퓨터프로그래밍", "code": "CTE0001", "credit": 3, "grade": "A0" },
+      { "name": "웹프로그래밍기초", "code": "CTE0002", "credit": 3, "grade": "B+" }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "route": "성북02",
+  "direction": "지하철역 방향",
+  "operationTime": "06:00~24:00",
+  "startTime": "06:00",
+  "interval": 13,
+  "stations": [
+    { "name": "한성대정문", "offset": 0 },
+    { "name": "한양슈퍼앞", "offset": 2 },
+    { "name": "(구)법화사", "offset": 4 },
+    { "name": "한성대입구3거리", "offset": 6 },
+    { "name": "성북세무서앞", "offset": 8 },
+    { "name": "삼영탕앞", "offset": 10 },
+    { "name": "녹십자약국", "offset": 12 },
+    { "name": "한성대입구역2번출구", "offset": 14 },
+    { "name": "한성대입구역5번출구", "offset": 16 },
+    { "name": "성북동주민센터.서울동구고", "offset": 18 },
+    { "name": "경신중고입구", "offset": 20 },
+    { "name": "홍익대부속중고등학교입구", "offset": 22 },
+    { "name": "선잠단지.성락원앞", "offset": 24 },
+    { "name": "성북동성당", "offset": 26 }
+  ]
+}

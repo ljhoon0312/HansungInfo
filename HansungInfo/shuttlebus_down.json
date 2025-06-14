@@ -1,0 +1,16 @@
+{
+  "route": "셔틀버스",
+  "direction": "삼선교 방향",
+  "operationTime": "08:30~11:30,12:30~16:00,17:00~18:30",
+  "startTime": "08:30",
+  "interval": 30,
+  "stations": [
+    { "name": "한성대정문", "offset": 0 },
+    { "name": "한양슈퍼앞", "offset": 2 },
+    { "name": "(구)법화사", "offset": 4 },
+    { "name": "한성대입구3거리", "offset": 6 },
+    { "name": "성북세무서앞", "offset": 8 },
+    { "name": "삼선시장", "offset": 10 },
+    { "name": "한성대입구역.성북천분수마루", "offset": 12 }
+  ]
+}

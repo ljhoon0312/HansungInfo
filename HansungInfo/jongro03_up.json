@@ -1,0 +1,22 @@
+{
+  "route": "종로03",
+  "direction": "종로5가 방향",
+  "operationTime": "06:00~23:40",
+  "startTime": "06:00",
+  "interval": 9,
+  "stations": [
+    { "name": "종로구민회관.창신동두산아파트", "offset": 0 },
+    { "name": "동묘앞역8번출구", "offset": 2 },
+    { "name": "동대문역2번출구", "offset": 4 },
+    { "name": "동대문종합시장", "offset": 6 },
+    { "name": "종로5가역.중부교육지원청", "offset": 8 },
+    { "name": "효제초교.연동교회.김마리아기념관", "offset": 10 },
+    { "name": "대학로입구.이화사거리", "offset": 12 },
+    { "name": "충신시장", "offset": 14 },
+    { "name": "동대문역.흥인지문", "offset": 16 },
+    { "name": "동묘앞역.롯데캐슬천지인", "offset": 18 },
+    { "name": "창신초교", "offset": 20 },
+    { "name": "승인1동주민센터", "offset": 22 },
+    { "name": "창신쌍용1단지.종로센트레빌후문", "offset": 24 }
+  ]
+}
