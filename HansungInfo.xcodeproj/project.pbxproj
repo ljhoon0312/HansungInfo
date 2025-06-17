@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2561256E2E01F88D008383D0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2561256D2E01F88D008383D0 /* FirebaseAuth */; };
+		256125702E01F895008383D0 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 2561256F2E01F895008383D0 /* FirebaseStorage */; };
+		256125722E01F8A2008383D0 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 256125712E01F8A2008383D0 /* FirebaseDatabase */; };
 		25E590362DFC8BF60025A8D5 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 25E590352DFC8BF60025A8D5 /* SwiftSoup */; };
 /* End PBXBuildFile section */
 
@@ -41,16 +44,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				25E590362DFC8BF60025A8D5 /* SwiftSoup in Frameworks */,
+				2561256E2E01F88D008383D0 /* FirebaseAuth in Frameworks */,
+				256125722E01F8A2008383D0 /* FirebaseDatabase in Frameworks */,
+				256125702E01F895008383D0 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2561256C2E01F88D008383D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		25C67E182DFC8975001F508A = {
 			isa = PBXGroup;
 			children = (
 				25C67E232DFC8975001F508A /* HansungInfo */,
+				2561256C2E01F88D008383D0 /* Frameworks */,
 				25C67E222DFC8975001F508A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,6 +98,9 @@
 			name = HansungInfo;
 			packageProductDependencies = (
 				25E590352DFC8BF60025A8D5 /* SwiftSoup */,
+				2561256D2E01F88D008383D0 /* FirebaseAuth */,
+				2561256F2E01F895008383D0 /* FirebaseStorage */,
+				256125712E01F8A2008383D0 /* FirebaseDatabase */,
 			);
 			productName = HansungInfo;
 			productReference = 25C67E212DFC8975001F508A /* HansungInfo.app */;
@@ -115,6 +132,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				25E590342DFC8BF60025A8D5 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				2561256B2E01F876008383D0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 25C67E222DFC8975001F508A /* Products */;
@@ -344,6 +362,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		2561256B2E01F876008383D0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.14.0;
+			};
+		};
 		25E590342DFC8BF60025A8D5 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/scinfu/SwiftSoup";
@@ -355,6 +381,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		2561256D2E01F88D008383D0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2561256B2E01F876008383D0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2561256F2E01F895008383D0 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2561256B2E01F876008383D0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		256125712E01F8A2008383D0 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2561256B2E01F876008383D0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
 		25E590352DFC8BF60025A8D5 /* SwiftSoup */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 25E590342DFC8BF60025A8D5 /* XCRemoteSwiftPackageReference "SwiftSoup" */;

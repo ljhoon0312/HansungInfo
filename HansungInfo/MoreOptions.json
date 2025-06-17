@@ -1,0 +1,67 @@
+[
+  {
+    "title": "학교 홈페이지",
+    "icon": "building.columns",
+    "url": "https://hansung.ac.kr"
+  },
+  {
+    "title": "열람실 현황",
+    "icon": "lamp.table",
+    "url": "https://hsel.hansung.ac.kr/home_login_write.mir"
+  },
+  {
+    "title": "학식 메뉴",
+    "icon": "fork.knife",
+    "url": "https://hansung.ac.kr/hansung/1920/subview.do"
+  },
+  {
+    "title": "학과 공지",
+    "icon": "megaphone",
+    "url": "https://hansung.ac.kr/CSE/10766/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGQ1NFJTJGMTI0OCUyRmFydGNsTGlzdC5kbyUzRmJic0NsU2VxJTNENzA5JTI2YmJzT3BlbldyZFNlcSUzRCUyNmlzVmlld01pbmUlM0RmYWxzZSUyNnNyY2hDb2x1bW4lM0RzaiUyNnNyY2hXcmQlM0QlMjY%3D"
+  },
+  {
+    "title": "학사 공지",
+    "icon": "megaphone.fill",
+    "url": "https://www.hansung.ac.kr/hansung/8385/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGaGFuc3VuZyUyRjE0MyUyRmFydGNsTGlzdC5kbyUzRmJic0NsU2VxJTNEMjM2JTI2YmJzT3BlbldyZFNlcSUzRCUyNmlzVmlld01pbmUlM0RmYWxzZSUyNnNyY2hDb2x1bW4lM0RzaiUyNnNyY2hXcmQlM0QlMjY%3D"
+  },
+  {
+    "title": "비교과 공지",
+    "icon": "speaker.wave.2",
+    "url": "https://www.hansung.ac.kr/hansung/8385/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGaGFuc3VuZyUyRjE0MyUyRmFydGNsTGlzdC5kbyUzRmJic0NsU2VxJTNEMjM5JTI2YmJzT3BlbldyZFNlcSUzRCUyNmlzVmlld01pbmUlM0RmYWxzZSUyNnNyY2hDb2x1bW4lM0RzaiUyNnNyY2hXcmQlM0QlMjY%3D"
+  },
+  {
+    "title": "장학 사항",
+    "icon": "graduationcap",
+    "url": "https://info.hansung.ac.kr/tonicsoft/jik/register/collage_register_scholarship_rwd.jsp"
+  },
+  {
+    "title": "캠퍼스 맵",
+    "icon": "map",
+    "url": "https://hansung.ac.kr/hansung/1773/subview.do"
+  },
+  {
+    "title": "학술 정보관",
+    "icon": "books.vertical",
+    "url": "https://hsel.hansung.ac.kr"
+  },
+  {
+    "title": "학사 일정",
+    "icon": "calendar",
+    "url": "https://hansung.ac.kr/eduinfo/3808/subview.do"
+  },
+  {
+    "title": "e-class",
+    "icon": "scalemass",
+    "url": "https://learn.hansung.ac.kr"
+  },
+  {
+    "title": "성적 확인",
+    "icon": "a.circle",
+    "url": "https://info.hansung.ac.kr/fuz/seongjeok/seongjeok_new_rwd.jsp"
+  },
+  {
+    "title": "낙산의 메아리",
+    "icon": "message",
+    "url": "https://www.hansung.ac.kr/hansung/1740/subview.do"
+  }
+]
