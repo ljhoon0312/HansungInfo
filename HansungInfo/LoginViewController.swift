@@ -76,6 +76,18 @@ class LoginViewController: UIViewController {
             titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             titleLabel.bottomAnchor.constraint(equalTo: stackView.topAnchor, constant: -24)
         ])
+        
+        let dimView = UIView()
+        dimView.backgroundColor = UIColor.black.withAlphaComponent(0.5)
+        dimView.translatesAutoresizingMaskIntoConstraints = false
+        view.insertSubview(dimView, aboveSubview: backgroundImageView)
+
+        NSLayoutConstraint.activate([
+            dimView.topAnchor.constraint(equalTo: view.topAnchor),
+            dimView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            dimView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            dimView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+        ])
 
         // Do any additional setup after loading the view.
     }
